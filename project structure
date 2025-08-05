@@ -1,0 +1,10 @@
+disease-prediction-ml/
+├── dataset/              # Contains training CSV file (Training.csv)
+├── model/                # Trained model and label encoder (PKL files)
+├── templates/            # HTML templates for Flask web app
+├── disease_prediction.py # ML model training script
+├── app.py                # Python script to test predictions
+├── flask_app.py          # Flask Web App to interact with the model
+├── requirements.txt      # List of Python dependencies
+├── README.md             # Project documentation
+└── .gitignore
