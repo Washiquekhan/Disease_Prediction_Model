@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h2>Predicted Disease:</h2>
+    <p>{{ disease }}</p>
+    <h3>Symptoms Selected:</h3>
+    <ul>
+        {% for symptom in symptoms %}
+            <li>{{ symptom }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Predict Again</a>
+</body>
+</html>
